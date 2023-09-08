@@ -3,18 +3,13 @@ Pod::Spec.new do |spec|
   spec.name         = "SwiftyLib"
   spec.version      = "0.0.1"
   spec.summary      = "A short description of SwiftyLib"
-  spec.description  = <<-DESC
-This CocoaPods library helps you perform calculation.
-                   DESC
+  spec.description  = "Simple description string it is bla bla"
 
   spec.homepage     = "https://github.com/QuyetnnMk/testPods.git"
   spec.license = 'MIT'
   spec.author             = { "quyetnn" => "quyetnn@mkvision.com" }
   spec.source       = { :git => "https://github.com/QuyetnnMk/testPods.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-spec.resources = "MyFramework/**/*.xib"
-    spec.platform = :ios
-    spec.swift_version = "4.2"
-    spec.ios.deployment_target  = '12.0'
+  spec.source_files  = "SwiftyLibExamples.swift"
+    spec.platform     = :ios, "12.0"
 end
