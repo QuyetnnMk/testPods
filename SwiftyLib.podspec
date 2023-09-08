@@ -10,6 +10,5 @@ Pod::Spec.new do |spec|
   spec.author             = { "quyetnn" => "quyetnn@mkvision.com" }
   spec.source       = { :git => "https://github.com/QuyetnnMk/testPods.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "SwiftyLibExamples.swift"
     spec.platform     = :ios, "12.0"
 end
