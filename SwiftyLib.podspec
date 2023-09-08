@@ -14,4 +14,8 @@ This CocoaPods library helps you perform calculation.
   spec.source       = { :git => "http://EXAMPLE/SwiftyLib.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
+spec.resources = "MyFramework/**/*.xib"
+    spec.platform = :ios
+    spec.swift_version = "4.2"
+    spec.ios.deployment_target  = '12.0'
 end
