@@ -11,7 +11,7 @@ This CocoaPods library helps you perform calculation.
   
   spec.license      = "MIT (example)"
   spec.author             = { "quyetnn@mkvision.com" => "" }
-  spec.source       = { :git => "http://EXAMPLE/SwiftyLib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/QuyetnnMk/testPods.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
 spec.resources = "MyFramework/**/*.xib"
