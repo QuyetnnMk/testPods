@@ -8,9 +8,8 @@ This CocoaPods library helps you perform calculation.
                    DESC
 
   spec.homepage     = "https://github.com/QuyetnnMk/testPods.git"
-  
-  spec.license      = "MIT (example)"
-  spec.author             = { "quyetnn@mkvision.com" => "" }
+  spec.license = 'MIT'
+  spec.author             = { "quyetnn" => "quyetnn@mkvision.com" }
   spec.source       = { :git => "https://github.com/QuyetnnMk/testPods.git", :tag => "#{spec.version}" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
